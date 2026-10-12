@@ -13,7 +13,7 @@ Get the latest version from the [Releases page](https://github.com/nextcloud-rel
 | Platform | Packages |
 |----------|----------|
 | Linux    | `.deb`, `.rpm` |
-| Windows  | installer `.exe` / `.msi` |
+| Windows  | installer `.exe` |
 | macOS    | `.dmg` (Apple Silicon and Intel), signed and notarized |
 
 Releases tagged `-N` (e.g. `v9.3.4-1`) are stable. All other tags
