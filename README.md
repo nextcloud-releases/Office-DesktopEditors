@@ -16,8 +16,8 @@ Get the latest version from the [Releases page](https://github.com/nextcloud-rel
 | Windows  | installer `.exe` |
 | macOS    | `.dmg` (Apple Silicon and Intel), signed and notarized |
 
-Releases tagged `-N` (e.g. `v9.3.4-1`) are stable. All other tags
-(beta, rc, dev) are marked as pre-releases.
+Releases tagged `vX.Y.Z` (e.g. `v9.3.6`) are stable. Tags with a suffix
+(e.g. `v9.3.6-rc.1`) are marked as pre-releases.
 
 ### Package repositories (Linux)
 
