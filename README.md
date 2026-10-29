@@ -32,7 +32,7 @@ sudo curl -fsSL https://download.nextcloud.com/office/repo/nextcloud-office.asc 
 echo "deb [signed-by=/etc/apt/keyrings/nextcloud-office.asc] https://download.nextcloud.com/office/repo/deb stable main" \
   | sudo tee /etc/apt/sources.list.d/nextcloud-office.list
 sudo apt update
-sudo apt install nextcloud-office-desktopeditors
+sudo apt install nextcloud-office-nextcloudoffice
 ```
 
 **Fedora / RHEL / openSUSE-compatible DNF systems**
@@ -47,7 +47,7 @@ gpgcheck=1
 repo_gpgcheck=1
 gpgkey=https://download.nextcloud.com/office/repo/nextcloud-office.asc
 EOF
-sudo dnf install nextcloud-office-desktopeditors
+sudo dnf install nextcloud-office-nextcloudoffice
 ```
 
 Packages are available for `x86_64` and `aarch64`.
